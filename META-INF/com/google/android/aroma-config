@@ -19,7 +19,7 @@
 ini_set("rom_name",             "Candy5 Softkey Sweetener Pack");
 ini_set("rom_version",          "V3");
 ini_set("rom_author",           "matthew0776 | CyberScopes | Rapier| Darknites");
-ini_set("rom_device",           "All CandyKat based Devices");
+ini_set("rom_device",           "All Candy5 based Devices");
 ini_set("rom_date",             "4th January, 2015");
 
 ini_set("force_colorspace","rgba");
@@ -48,7 +48,7 @@ fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
 theme("ics");
 
 viewbox(
-  "CandyKat Sweetener Main Menu",
+  "Candy5 Sweetener Main Menu",
   "\n\n\n\n\n"+
   "You're about to flash:\n"+
   ini_get("rom_name") + " for " + ini_get("rom_device") +  "\n\n\n"+
@@ -64,7 +64,7 @@ viewbox(
 #
 menubox(
   #-- Title
-    "CandyKat Custom Softkeys Menu",
+    "Candy5 Custom Softkeys Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Softkeys",
@@ -150,7 +150,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "CandyKat Custom Home Key Menu",
+    "Candy5 Custom Home Key Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Home Key",
