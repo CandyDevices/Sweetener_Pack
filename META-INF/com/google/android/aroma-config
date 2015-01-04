@@ -1,0 +1,264 @@
+﻿### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+
+ini_set("rom_name",             "Candy5 Softkey Sweetener Pack");
+ini_set("rom_version",          "V3");
+ini_set("rom_author",           "matthew0776 | CyberScopes | Rapier| Darknites");
+ini_set("rom_device",           "All CandyKat based Devices");
+ini_set("rom_date",             "4th January, 2015");
+
+ini_set("force_colorspace","rgba");
+
+splash(3000, "splash");
+
+# Show Animated Splash
+#
+anisplash(
+#  #-- Number of Loop
+    8,
+  
+  #-- Frame  [ Image, duration in millisecond ]
+    "anim/a1", 40,
+    "anim/a2", 40,
+    "anim/a3", 40,
+    "anim/a4", 40,
+    "anim/a5", 40,
+    "anim/a6", 40
+);
+
+
+fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+
+theme("ics");
+
+viewbox(
+  "CandyKat Sweetener Main Menu",
+  "\n\n\n\n\n"+
+  "You're about to flash:\n"+
+  ini_get("rom_name") + " for " + ini_get("rom_device") +  "\n\n\n"+
+  "  Version:  <#ffffff>" + ini_get("rom_version") + "</#>\n"+
+  "  Updated:  <#ffffff>" + ini_get("rom_date") + "</#>\n\n\n"+
+  "Tap Next to continue the installation...",
+  "icons/info"
+);
+
+
+##
+# SOFTKEYS MENU
+#
+menubox(
+  #-- Title
+    "CandyKat Custom Softkeys Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Customize your Softkeys",
+  
+  #-- Icon:
+    "@softkey_home",
+    
+  #-- Will be saved in /tmp/aroma/softkeys.prop
+    "softkeys.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+	
+	"Leave Current",           "",                                 "@",                 #-- selected = 1
+	"Stock",                  "",                                  "@stock_keys",       #-- selected = 2
+	"3D Stock",                  "",                               "@3d_stock",         #-- selected = 3
+	"Holo Framed Stock",                "",                        "@holo_frame",       #-- selected = 4
+	"Cyber Pro",                "",                                "@cyber_pro",        #-- selected = 5				
+	"Cyber Pro Nexus",                "",                          "@cyber_pro_nexus",  #-- selected = 6
+	"Cyber",                "",                                    "@cyber",            #-- selected = 7
+	"Cyber Holo Blue and Red",                "",                  "@cyber_hbr",        #-- selected = 8
+	"Cyber Nexus",                "",                              "@cyber_nexus",      #-- selected = 9
+	"Cyber Nexus X",                "",                            "@cyber_nexus_x",    #-- selected = 10
+    "CCX",        "",                                              "@ccx",              #-- selected = 11
+    "CCX Nexus",        "",                                        "@ccx_nexus",        #-- selected = 12
+	"Exo-Circle",                  "",                             "@exo_circle",       #-- selected = 13
+	"Exo-Circle Nexus",                  "",                       "@exo_circle_nexus", #-- selected = 14
+	"Dual Arrow",                  "",                             "@dual_arrow",       #-- selected = 15
+	"Dual Arrow Nexus",                  "",                       "@dual_arrow_nexus", #-- selected = 16
+	"Circles Simplified",                  "",                     "@circles",          #-- selected = 17
+	"Circles Simplified Nexus",                  "",               "@circles_nexus",    #-- selected = 18
+	"Circles Simplified v2",                  "",                  "@circles_2",        #-- selected = 19
+	"Circles Simplified v2 Nexus",                  "",            "@circles_2_nexus",  #-- selected = 20
+	"Lines Simplified",                  "",                       "@lines",            #-- selected = 21
+	"Lines Simplified Nexus",                  "",                 "@lines_nexus",      #-- selected = 22
+    "Lines Simplified Border",                  "",                "@lines_border",     #-- selected = 23
+    "Dots Simplified",                  "",                        "@dots",             #-- selected = 24
+	"Dots Simplified Nexus",                  "",                  "@dots_nexus",       #-- selected = 25
+	"Squares Simplified",                "",                       "@squares",          #-- selected = 26
+	"Squares Simplified Nexus",                "",                 "@squares_nexus",    #-- selected = 27
+	"Tri Lock",                "",                                 "@tri_lock",         #-- selected = 28
+	"Tri Lock Nexus",                "",                           "@tri_lock_nexus",   #-- selected = 29
+    "Ultra Point",                  "",                            "@ultra_point",      #-- selected = 30
+	"Ultra Point Nexus",                  "",                      "@ultra_point_nexus",#-- selected = 31
+	"Pro-X",                  "",                                  "@pro_x",            #-- selected = 32
+	"Pro-X Nexus",                  "",                            "@pro_x_nexus",      #-- selected = 33
+	"Pro-X Nexus Home and Others White",                  "",      "@pro_x_nexus_white",#-- selected = 34
+	"Icon Keys",                  "",                              "@icon_keys",        #-- selected = 35
+	"Icon Keys Holo Blue",                  "",                    "@icon_keys_holo",   #-- selected = 36
+	"Nexus X White",                "",                            "@nexus_x_white",    #-- selected = 37
+	"Nexus X",                "",                                  "@nexus_x",          #-- selected = 38
+	"NeXus Keys",                  "",                             "@nexus",            #-- selected = 39
+	"Line Keys",                  "",                              "@line",             #-- selected = 40
+	"Lopro",                  "",                                  "@lopro",            #-- selected = 41
+    "Playstation",                  "",                            "@playstation",      #-- selected = 42
+    "Xbox",                  "",                                   "@xbox",             #-- selected = 43
+	"Adventure Time",                  "",                         "@adventure_time",   #-- selected = 44
+	"Minecraft Diamond Set",                  "",                  "@minecraft_diamond",#-- selected = 45
+	"Minecraft Gold Set",                  "",                     "@minecraft_gold",   #-- selected = 46
+	"Minecraft Iron Set",                  "",                     "@minecraft_iron",   #-- selected = 47
+    "Minecraft Stone Set",                  "",                    "@minecraft_stone",  #-- selected = 48
+	"Minecraft Wood Set",                  " ",                    "@minecraft_wood",   #-- selected = 49
+	"X-Scope",                  "",                                "@xscope",           #-- selected = 50
+	"Braille",                  "",                                "@braille",          #-- selected = 51
+	"ZTE Grand",                  "",                              "@zte",              #-- selected = 52
+	"Facebook",                  "",                               "@facebook",         #-- selected = 53
+	"Xperia",                  "",                                 "@xperia",           #-- selected = 54
+	"HTC",                  "",                                    "@htc",              #-- selected = 55
+	"Motorola",                  "",                               "@motorola",         #-- selected = 56
+	"Samsung",                  "",                                "@samsung",          #-- selected = 57
+	"SimpleX",                  "",                                "@simplex",          #-- selected = 58
+    "KKF (KitKat Fixed)",                  "",                     "@kkf",              #-- selected = 59
+	"Minecraft Heads",                  "",                        "@minecraft_heads",  #-- selected = 60
+	"Android 'L'",                  "",                            "@android_l",        #-- selected = 61
+	"Project Hera",                  "",                           "@hera",             #-- selected = 62
+	"DKeyz",                  "",                                  "@dkeyz",            #-- selected = 63
+	"Blank",                  "",                                  "@blank"             #-- selected = 64
+);
+
+##
+# HOME KEY MENU
+#
+menubox(
+  #-- Title
+    "CandyKat Custom Home Key Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Customize your Home Key",
+  
+  #-- Icon:
+    "@softkey_home",
+    
+  #-- Will be saved in /tmp/aroma/homekey.prop
+    "homekey.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+	
+	"Leave Current or From Previously Chosen Set",    "",          "@",                 #-- selected = 1
+	"Stock",                  "",                                  "@stock_keys",       #-- selected = 2
+	"3D Stock",                  "",                               "@3d_stock",         #-- selected = 3
+	"Holo Framed Stock",                "",                        "@holo_frame",       #-- selected = 4
+	"Cyber Pro",                "",                                "@cyber_pro",        #-- selected = 5				
+	"Cyber Pro Nexus",                "",                          "@cyber_pro_nexus",  #-- selected = 6
+	"Cyber",                "",                                    "@cyber",            #-- selected = 7
+	"Cyber Holo Blue and Red",                "",                  "@cyber_hbr",        #-- selected = 8
+	"Cyber Nexus",                "",                              "@cyber_nexus",      #-- selected = 9
+	"Cyber Nexus X",                "",                            "@cyber_nexus_x",    #-- selected = 10
+    "CCX",        "",                                              "@ccx",              #-- selected = 11
+    "CCX Nexus",        "",                                        "@ccx_nexus",        #-- selected = 12
+	"Exo-Circle",                  "",                             "@exo_circle",       #-- selected = 13
+	"Exo-Circle Nexus",                  "",                       "@exo_circle_nexus", #-- selected = 14
+	"Dual Arrow",                  "",                             "@dual_arrow",       #-- selected = 15
+	"Dual Arrow Nexus",                  "",                       "@dual_arrow_nexus", #-- selected = 16
+	"Circles Simplified",                  "",                     "@circles",          #-- selected = 17
+	"Circles Simplified Nexus",                  "",               "@circles_nexus",    #-- selected = 18
+	"Lines Simplified",                  "",                       "@lines",            #-- selected = 19			
+    "Dots Simplified",                  "",                        "@dots",             #-- selected = 20
+	"Dots Simplified Nexus",                  "",                  "@dots_nexus",       #-- selected = 21
+	"Squares Simplified",                "",                       "@squares",          #-- selected = 22
+	"Squares Simplified Nexus",                "",                 "@squares_nexus",    #-- selected = 23
+	"Tri Lock",                "",                                 "@tri_lock",         #-- selected = 24
+	"Tri Lock Nexus",                "",                           "@tri_lock_nexus",   #-- selected = 25
+    "Ultra Point",                  "",                            "@ultra_point",      #-- selected = 26
+	"Ultra Point Nexus",                  "",                      "@ultra_point_nexus",#-- selected = 27
+	"Pro-X",                  "",                                  "@pro_x",            #-- selected = 28
+	"Pro-X Nexus",                  "",                            "@pro_x_nexus",      #-- selected = 29
+	"Icon",                  "",                                   "@icon_keys",        #-- selected = 30
+	"Icon Holo Blue",                  "",                         "@icon_keys_holo",   #-- selected = 31
+	"Nexus X White",                "",                            "@nexus_x_white",    #-- selected = 32
+	"Nexus X",                "",                                  "@nexus_x",          #-- selected = 33
+	"NeXus",                  "",                                  "@nexus",            #-- selected = 34
+	"Line",                  "",                                   "@line",             #-- selected = 35
+	"Lopro",                  "",                                  "@lopro",            #-- selected = 36
+    "Playstation",                  "",                            "@playstation",      #-- selected = 37
+    "Xbox",                  "",                                   "@xbox",             #-- selected = 38
+	"Adventure Time",                  "",                         "@adventure_time",   #-- selected = 39
+	"Minecraft Diamond Set",                  "",                  "@minecraft_diamond",#-- selected = 40
+	"Minecraft Gold Set",                  "",                     "@minecraft_gold",   #-- selected = 41
+	"Minecraft Iron Set",                  "",                     "@minecraft_iron",   #-- selected = 42
+    "Minecraft Stone Set",                  "",                    "@minecraft_stone",  #-- selected = 43
+	"Minecraft Wood Set",                  " ",                    "@minecraft_wood",   #-- selected = 44
+	"X-Scope",                  "",                                "@xscope",           #-- selected = 45
+	"Braille",                  "",                                "@braille",          #-- selected = 46
+	"ZTE Grand",                  "",                              "@zte",              #-- selected = 47
+	"Android",                  "",                                "@android",          #-- selected = 48
+	"Android Head",                  "",                           "@android_head",     #-- selected = 49
+	"Batman",                  "",                                 "@batman",           #-- selected = 50
+	"Captain America",                  "",                        "@captainamerica",   #-- selected = 51
+	"Flash",                  "",                                  "@flash",            #-- selected = 52
+	"Green Lantern",                  "",                          "@greenlantern",     #-- selected = 53
+	"Iron Man Reactor",                  "",                       "@ironman",          #-- selected = 54
+	"Superman",                  "",                               "@superman",         #-- selected = 55
+	"SimpleX",                  "",                                "@simplex",          #-- selected = 56
+	"KKF (KitKat Fixed)",                  "",                                    "@kkf",              #-- selected = 57		
+	"Blank",                  "",                                  "@blank"             #-- selected = 58
+);
+
+viewbox(
+  "Ready To Install",
+  "All the required info has been collected for installation.\n\n"+
+  "Tap Next to start Candy Sweetener installation...",
+  "icons/info"
+);
+
+install(
+  "Installing",
+  "Installing " + ini_get("rom_name") + " " + ini_get("rom_version") + 
+  "...\nPlease wait...",
+  "icons/install"
+);
+
+
+#Set Next Text for Finish
+ini_set("text_next", "Finish");
+
+viewbox(
+  "Installation Completed",
+  "<#FF00FF>ENJOY!</#>\n\n"+
+  ini_get("rom_name") + " " + ini_get("rom_version") + " has been installed successfully.\n\n"+
+  "Tap Finish, and Reboot your phone.\n\nThanks.",
+  "icons/info"
+);
+
+if
+  confirm(
+      "Reboot",
+      "Reboot Now?",
+      "icons/info",
+      "Yes",
+      "No"
+  )=="yes"
+then
+  reboot("onfinish");
+endif;
