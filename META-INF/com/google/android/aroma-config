@@ -16,10 +16,10 @@
 #
 
 
-ini_set("rom_name",             "Candy5 Softkey Sweetener Pack");
-ini_set("rom_version",          "V3");
-ini_set("rom_author",           "matthew0776 | CyberScopes | Rapier| Darknites");
-ini_set("rom_device",           "All Candy5 based Devices");
+ini_set("rom_name",             "Candy5 Sweetener Pack 2");
+ini_set("rom_version",          "3.0.0");
+ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites | Rapier ");
+ini_set("rom_device",           "CandyRoms");
 ini_set("rom_date",             "4th January, 2015");
 
 ini_set("force_colorspace","rgba");
@@ -30,7 +30,7 @@ splash(3000, "splash");
 #
 anisplash(
 #  #-- Number of Loop
-    8,
+    3,
   
   #-- Frame  [ Image, duration in millisecond ]
     "anim/a1", 40,
@@ -38,17 +38,29 @@ anisplash(
     "anim/a3", 40,
     "anim/a4", 40,
     "anim/a5", 40,
-    "anim/a6", 40
+    "anim/a6", 40,
+	"anim/a7", 40,
+	"anim/a8", 40,
+	"anim/a9", 40,
+	"anim/a10", 40,
+	"anim/a11", 40,
+	"anim/a12", 40,
+	"anim/a13", 40,
+	"anim/a14", 40,
+	"anim/a15", 40,
+	"anim/a16", 40,
+	"anim/a17", 40,
+	"anim/a18", 40
 );
 
 
 fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
 fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
 
-theme("ics");
+theme("lByCyberScopes");
 
 viewbox(
-  "Candy5 Sweetener Main Menu",
+  "Candy Sweetener Pack 2 Main Menu",
   "\n\n\n\n\n"+
   "You're about to flash:\n"+
   ini_get("rom_name") + " for " + ini_get("rom_device") +  "\n\n\n"+
@@ -64,7 +76,7 @@ viewbox(
 #
 menubox(
   #-- Title
-    "Candy5 Custom Softkeys Menu",
+    "Custom Softkeys Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Softkeys",
@@ -150,7 +162,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Candy5 Custom Home Key Menu",
+    "Custom Home Key Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Home Key",
@@ -228,7 +240,7 @@ menubox(
 viewbox(
   "Ready To Install",
   "All the required info has been collected for installation.\n\n"+
-  "Tap Next to start Candy Sweetener installation...",
+  "Tap Next to start the installation.",
   "icons/info"
 );
 
@@ -245,7 +257,7 @@ ini_set("text_next", "Finish");
 
 viewbox(
   "Installation Completed",
-  "<#FF00FF>ENJOY!</#>\n\n"+
+  "Enjoy your modded device!\n\n"+
   ini_get("rom_name") + " " + ini_get("rom_version") + " has been installed successfully.\n\n"+
   "Tap Finish, and Reboot your phone.\n\nThanks.",
   "icons/info"

@@ -872,7 +872,7 @@ endif;
 ########################## Theme Installation###################
 set_progress(0.7);
 ui_print("");
-	ui_print("Please wait....");
+	ui_print("Please wait...");
 run_program("/sdcard/vrtheme/installtheme.sh");
 set_progress(0.8);
 ui_print(" ");
@@ -901,6 +901,6 @@ unmount("/data");
 unmount("/system");
 set_progress(1.0);
 ui_print("Installation Complete!");
-ui_print("Your device is now Sweetened!");
+ui_print("Enjoy your sweetened device!");
 run_program("/sbin/busybox", "cp", "/tmp/recovery.log", "/sdcard/recovery.log");
 run_program("/sbin/sleep", "3");
