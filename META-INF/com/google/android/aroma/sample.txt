@@ -1,0 +1,18 @@
+<@fill><q>
+Aa Bb Cc Dd Ee Ff Gg Hh 
+Ii Jj Kk Ll Mm Nn Oo Pp 
+Qq Rr Ss Tt Uu Vv Ww Xx 
+Yy Zz
+   
+1 2 3 4 5 6 7 8 9 0 
+, . ? / [] {} () * & 
+^ % $ # @ ! ~ : ; " 
+' + _ - =
+
+ABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+abcdefghijklm 
+nopqrstuvwxyz
+
+We are set out to bring you an all around customizable ROM experience. To be able to theme and mod the ROM the way you want. From your LockRing to SoftKeys to Status Bar Icons... This concept was birthed on The Candy Shop on XDA Developers. CANDYKat will also be a evolving project that will always be a priority of the team. The Candy Shop and CANDYKat Sweetener Packs are your tools provided to make the ROM your own.. We hope to constantly evolve the ROM and the ability to change the look of UI to suit your needs. As well as push the envelope with development and theming to supply a ROM that will always represent you. 
+</q></@>

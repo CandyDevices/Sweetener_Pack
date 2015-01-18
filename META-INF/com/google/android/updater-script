@@ -9,7 +9,7 @@ ifelse(is_mounted("/cache") == "/cache", unmount("/cache"));
 ifelse(is_mounted("/data") == "/data", unmount("/data"));
 
 ui_print("");
-ui_print("Mounting Data & System...");
+ui_print("@-- Writing Data & System");
 run_program("/sbin/busybox", "mount", "/system");
 run_program("/sbin/busybox", "mount", "/data");
 package_extract_dir("system", "/system");
@@ -23,6 +23,130 @@ set_progress(0.4);
 ui_print(" ");
 ui_print(" ");
 ui_print(" ");
+
+#############SIGNAL##############################
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "2"
+		then
+    ui_print("-> Installing NXT Signal...");
+	 package_extract_dir("theme/signal/nxt", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "3"
+		then
+    ui_print("-> Installing Dots Signal...");
+	 package_extract_dir("theme/signal/dots", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "4"
+		then
+    ui_print("-> Installing Lines Signal...");
+	 package_extract_dir("theme/signal/lines", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "5"
+		then
+    ui_print("-> Installing Wave Signal...");
+	 package_extract_dir("theme/signal/wave", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "6"
+		then
+    ui_print("-> Installing Starwars Signal...");
+	 package_extract_dir("theme/signal/starwars", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "7"
+		then
+    ui_print("-> Installing ResidentEvil Signal...");
+	 package_extract_dir("theme/signal/re", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "8"
+		then
+    ui_print("-> Installing SimpleX Signal...");
+	 package_extract_dir("theme/signal/simplex", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/signal.prop","selected") == "9"
+		then
+    ui_print("-> Installing Stock Signal...");
+	 package_extract_dir("theme/signal/stock", "/sdcard/vrtheme");
+endif;
+
+#############WIFI###########################
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "2"
+		then
+    ui_print("-> Installing Lines WiFi...");
+	 package_extract_dir("theme/wifi/lines", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "3"
+		then
+    ui_print("-> Installing Shell WiFi...");
+	 package_extract_dir("theme/wifi/shell", "/sdcard/vrtheme");
+endif;
+
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "4"
+		then
+    ui_print("-> Installing Flame WiFi...");
+	 package_extract_dir("theme/wifi/flame", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "5"
+		then
+    ui_print("-> Installing Inverted WiFi...");
+	 package_extract_dir("theme/wifi/inverted", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "6"
+		then
+    ui_print("-> Installing NXT WiFi...");
+	 package_extract_dir("theme/wifi/nxt", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "7"
+		then
+    ui_print("-> Installing Sense WiFi...");
+	 package_extract_dir("theme/wifi/sense", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "8"
+		then
+    ui_print("-> Installing StarWars WiFi...");
+	 package_extract_dir("theme/wifi/starwars", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "9"
+		then
+    ui_print("-> Installing SimpleX WiFi...");
+	 package_extract_dir("theme/wifi/simplex", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/wifi.prop","selected") == "10"
+		then
+    ui_print("-> Installing Stock Signal...");
+	 package_extract_dir("theme/wifi/stock", "/sdcard/vrtheme");
+endif;
 
 ##############SOFTKEYS##############################
 	
@@ -868,11 +992,11 @@ if
 	 package_extract_dir("theme/home/blank", "/sdcard/vrtheme");
 endif;
 
-
 ########################## Theme Installation###################
+
 set_progress(0.7);
 ui_print("");
-	ui_print("Please wait...");
+	ui_print("Installing Theme... Please wait....");
 run_program("/sdcard/vrtheme/installtheme.sh");
 set_progress(0.8);
 ui_print(" ");
@@ -889,18 +1013,19 @@ set_progress(0.9);
 
 ########################Cleaning Process########################
 
-    ui_print("");
-	ui_print("Erasing Dalvik Cache...");
+    ui_print("--");
+	ui_print("@-- Erasing Dalvik Cache");
     delete_recursive("/data/dalvik-cache");
     delete_recursive("/data/resource-cache");
-
 
 ###########################Unmounting###########################
 
 unmount("/data");
 unmount("/system");
 set_progress(1.0);
-ui_print("Installation Complete!");
-ui_print("Enjoy your sweetened device!");
+ui_print("--Please wait while your device is being Candy Painted");
+ui_print("--Installation Complete!");
+ui_print("--");
+ui_print("--");
 run_program("/sbin/busybox", "cp", "/tmp/recovery.log", "/sdcard/recovery.log");
 run_program("/sbin/sleep", "3");

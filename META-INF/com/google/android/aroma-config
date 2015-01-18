@@ -1,4 +1,4 @@
-﻿### LICENSE:
+### LICENSE:
 #
 # Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
 #
@@ -16,13 +16,14 @@
 #
 
 
-ini_set("rom_name",             "Candy5 Sweetener Pack 2");
-ini_set("rom_version",          "3.0.0");
-ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites | Rapier ");
-ini_set("rom_device",           "CandyRoms");
-ini_set("rom_date",             "4th January, 2015");
+ini_set("rom_name",             "Candy5 Sweetener Pack");
+ini_set("rom_version",          "V3");
+ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites | Rapier");
+ini_set("rom_device",           "Candy5 Devices");
+ini_set("rom_date",             "Jan.17, 2015");
 
 ini_set("force_colorspace","rgba");
+#ini_set("dp","5");
 
 splash(3000, "splash");
 
@@ -55,12 +56,12 @@ anisplash(
 
 
 fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
-fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+fontresload( "1", "ttf/Roboto-Regular.ttf", "16" );
 
 theme("lByCyberScopes");
 
 viewbox(
-  "Candy Sweetener Pack 2 Main Menu",
+  "CANDY Sweetner Main Menu",
   "\n\n\n\n\n"+
   "You're about to flash:\n"+
   ini_get("rom_name") + " for " + ini_get("rom_device") +  "\n\n\n"+
@@ -70,6 +71,70 @@ viewbox(
   "icons/info"
 );
 
+##
+# Signal Icon MENU
+#
+menubox(
+  #-- Title
+    "CandyKat Custom Signal Icon Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Customize your Signal Icon",
+  
+  #-- Icon:
+    "@signal_home",
+    
+  #-- Will be saved in /tmp/aroma/signal.prop
+    "signal.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+
+	"Leave Current",            "Select this If u do NOT want Custom SignalIcon Installed", "@",     #-- selected = 1
+    "NXT",        "",                        "@nxt_signal",      #-- selected = 2
+    "Dots",        "Thanks to grisoxxl",      "@dots_signal",      #-- selected = 3
+    "Lines",        "Thanks to grisoxxl",      "@lines_signal",      #-- selected = 4
+    "Wave",        "Thanks to grisoxxl",      "@wave_signal",      #-- selected = 5
+    "StarWars",        "Thanks to deadpedal",      "@starwars_signal",      #-- selected = 6
+    "ResidentEvil",        "Thanks to grisoxxl",      "@re_signal",      #-- selected = 7
+    "SimpleX",        "Recommend using SimpleX or stock signal to avoid layover", "@simplex_signal", #-- selected = 8
+    "Revert Back to Stock",                "",                "@signal_home"        #-- selected = 9
+   
+);
+
+##
+# WIFI Icon MENU
+#
+menubox(
+  #-- Title
+    "CandyKat Custom WiFi Icon Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Customize your WiFi Icon",
+  
+  #-- Icon:
+    "@wifi_home",
+    
+  #-- Will be saved in /tmp/aroma/wifi.prop
+    "wifi.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+
+	"Leave Current",            "Select this If u do NOT want Custom WiFiIcon Installed","@",     #-- selected = 1  
+    "Lines",        "Thanks to grisoxxl",      "@lines_wifi",      #-- selected = 2
+    "Shell",        "Thanks to grisoxxl",      "@shell_wifi",      #-- selected = 3
+    "Flame",        "Thanks to grisoxxl",      "@flame_wifi",      #-- selected = 4
+    "Inverted",        "Inverted Signal/WiFi Icon",      "@inverted_wifi",      #-- selected = 5
+    "NXT",                 "",                  "@nxt_wifi",      #-- selected = 6
+    "Sense",                 "",                  "@sense_wifi",      #-- selected = 7
+    "Starwars",                 "Thanks to deadpedal",                  "@starwars_wifi",      #-- selected = 8
+    "SimpleX",                 "Recommend using SimpleX or stock wifi to avoid layover", "@simplex_wifi",      #-- selected = 9
+    "Revert Back to Stock",                "",                "@wifi_home"        #-- selected = 10
+   
+);
 
 ##
 # SOFTKEYS MENU
@@ -240,24 +305,23 @@ menubox(
 viewbox(
   "Ready To Install",
   "All the required info has been collected for installation.\n\n"+
-  "Tap Next to start the installation.",
+  "Tap Next to start CANDY Sweetner installation...",
   "icons/info"
 );
 
 install(
   "Installing",
   "Installing " + ini_get("rom_name") + " " + ini_get("rom_version") + 
-  "...\nPlease wait...",
+  "...\nPlease wait until it's finished...",
   "icons/install"
 );
 
-
-#Set Next Text for Finish
+#Set Next Text fo Finish
 ini_set("text_next", "Finish");
 
 viewbox(
   "Installation Completed",
-  "Enjoy your modded device!\n\n"+
+  "<#ffffff>ENJOI...</#>\n\n"+
   ini_get("rom_name") + " " + ini_get("rom_version") + " has been installed successfully.\n\n"+
   "Tap Finish, and Reboot your phone.\n\nThanks.",
   "icons/info"
