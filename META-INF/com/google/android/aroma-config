@@ -91,16 +91,16 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 
-	"Leave Current",            "Select this If u do NOT want Custom SignalIcon Installed", "@",     #-- selected = 1
-    "NXT",        "",                        "@nxt_signal",      #-- selected = 2
-    "Dots",        "Thanks to grisoxxl",      "@dots_signal",      #-- selected = 3
-    "Lines",        "Thanks to grisoxxl",      "@lines_signal",      #-- selected = 4
-    "Wave",        "Thanks to grisoxxl",      "@wave_signal",      #-- selected = 5
-    "StarWars",        "Thanks to deadpedal",      "@starwars_signal",      #-- selected = 6
-    "ResidentEvil",        "Thanks to grisoxxl",      "@re_signal",      #-- selected = 7
-    "SimpleX",        "Recommend using SimpleX or stock signal to avoid layover", "@simplex_signal", #-- selected = 8
-    "Revert Back to Stock",                "",                "@signal_home"        #-- selected = 9
-   
+	"Leave Current",          "Select this If u do NOT want Custom Signal Icon Installed",   "@",                    #-- selected = 1
+    "Revert Back to Stock",   "",                                                            "@signal_home"          #-- selected = 2
+    "Dots",                   "Thanks to grisoxxl",                                          "@dots_signal",         #-- selected = 3
+    "Lines",                  "Thanks to grisoxxl",                                          "@lines_signal",        #-- selected = 4
+    "NXT",                    "",                                                            "@nxt_signal",          #-- selected = 5
+    "ResidentEvil",           "Thanks to grisoxxl",                                          "@re_signal",           #-- selected = 6
+    "SimpleX",                "Recommend using SimpleX or Stock Signal",                     "@simplex_signal",      #-- selected = 7
+    "StarWars",               "Thanks to deadpedal",                                         "@starwars_signal",     #-- selected = 8
+    "Wave",                   "Thanks to grisoxxl",                                          "@wave_signal",         #-- selected = 9
+  
 );
 
 ##
@@ -123,16 +123,16 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 
-	"Leave Current",            "Select this If u do NOT want Custom WiFiIcon Installed","@",     #-- selected = 1  
-    "Lines",        "Thanks to grisoxxl",      "@lines_wifi",      #-- selected = 2
-    "Shell",        "Thanks to grisoxxl",      "@shell_wifi",      #-- selected = 3
-    "Flame",        "Thanks to grisoxxl",      "@flame_wifi",      #-- selected = 4
-    "Inverted",        "Inverted Signal/WiFi Icon",      "@inverted_wifi",      #-- selected = 5
-    "NXT",                 "",                  "@nxt_wifi",      #-- selected = 6
-    "Sense",                 "",                  "@sense_wifi",      #-- selected = 7
-    "Starwars",                 "Thanks to deadpedal",                  "@starwars_wifi",      #-- selected = 8
-    "SimpleX",                 "Recommend using SimpleX or stock wifi to avoid layover", "@simplex_wifi",      #-- selected = 9
-    "Revert Back to Stock",                "",                "@wifi_home"        #-- selected = 10
+	"Leave Current",         "Select this If u do NOT want Custom WiFi Icon Installed",  "@",               #-- selected = 1  
+    "Revert Back to Stock",  "",                                                         "@wifi_home"       #-- selected = 2
+    "Flame",                 "Thanks to grisoxxl",                                       "@flame_wifi",     #-- selected = 3
+    "Lines",                 "Thanks to grisoxxl",                                       "@lines_wifi",     #-- selected = 4
+    "Inverted",              "Inverted Signal/WiFi Icon",                                "@inverted_wifi",  #-- selected = 5
+    "NXT",                   "",                                                         "@nxt_wifi",       #-- selected = 6
+    "Sense",                 "",                                                         "@sense_wifi",     #-- selected = 7
+    "SimpleX",               "Recommend using SimpleX or Stock Wifi",                    "@simplex_wifi",   #-- selected = 8
+    "Shell",                 "Thanks to grisoxxl",                                       "@shell_wifi",     #-- selected = 9
+    "Starwars",              "Thanks to deadpedal",                                      "@starwars_wifi",  #-- selected = 10
    
 );
 
@@ -156,70 +156,67 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 	
-	"Leave Current",           "",                                 "@",                 #-- selected = 1
-	"Stock",                  "",                                  "@stock_keys",       #-- selected = 2
-	"3D Stock",                  "",                               "@3d_stock",         #-- selected = 3
-	"Holo Framed Stock",                "",                        "@holo_frame",       #-- selected = 4
-	"Cyber Pro",                "",                                "@cyber_pro",        #-- selected = 5				
-	"Cyber Pro Nexus",                "",                          "@cyber_pro_nexus",  #-- selected = 6
-	"Cyber",                "",                                    "@cyber",            #-- selected = 7
-	"Cyber Holo Blue and Red",                "",                  "@cyber_hbr",        #-- selected = 8
-	"Cyber Nexus",                "",                              "@cyber_nexus",      #-- selected = 9
-	"Cyber Nexus X",                "",                            "@cyber_nexus_x",    #-- selected = 10
-    "CCX",        "",                                              "@ccx",              #-- selected = 11
-    "CCX Nexus",        "",                                        "@ccx_nexus",        #-- selected = 12
-	"Exo-Circle",                  "",                             "@exo_circle",       #-- selected = 13
-	"Exo-Circle Nexus",                  "",                       "@exo_circle_nexus", #-- selected = 14
-	"Dual Arrow",                  "",                             "@dual_arrow",       #-- selected = 15
-	"Dual Arrow Nexus",                  "",                       "@dual_arrow_nexus", #-- selected = 16
-	"Circles Simplified",                  "",                     "@circles",          #-- selected = 17
-	"Circles Simplified Nexus",                  "",               "@circles_nexus",    #-- selected = 18
-	"Circles Simplified v2",                  "",                  "@circles_2",        #-- selected = 19
-	"Circles Simplified v2 Nexus",                  "",            "@circles_2_nexus",  #-- selected = 20
-	"Lines Simplified",                  "",                       "@lines",            #-- selected = 21
-	"Lines Simplified Nexus",                  "",                 "@lines_nexus",      #-- selected = 22
-    "Lines Simplified Border",                  "",                "@lines_border",     #-- selected = 23
-    "Dots Simplified",                  "",                        "@dots",             #-- selected = 24
-	"Dots Simplified Nexus",                  "",                  "@dots_nexus",       #-- selected = 25
-	"Squares Simplified",                "",                       "@squares",          #-- selected = 26
-	"Squares Simplified Nexus",                "",                 "@squares_nexus",    #-- selected = 27
-	"Tri Lock",                "",                                 "@tri_lock",         #-- selected = 28
-	"Tri Lock Nexus",                "",                           "@tri_lock_nexus",   #-- selected = 29
-    "Ultra Point",                  "",                            "@ultra_point",      #-- selected = 30
-	"Ultra Point Nexus",                  "",                      "@ultra_point_nexus",#-- selected = 31
-	"Pro-X",                  "",                                  "@pro_x",            #-- selected = 32
-	"Pro-X Nexus",                  "",                            "@pro_x_nexus",      #-- selected = 33
-	"Pro-X Nexus Home and Others White",                  "",      "@pro_x_nexus_white",#-- selected = 34
-	"Icon Keys",                  "",                              "@icon_keys",        #-- selected = 35
-	"Icon Keys Holo Blue",                  "",                    "@icon_keys_holo",   #-- selected = 36
-	"Nexus X White",                "",                            "@nexus_x_white",    #-- selected = 37
-	"Nexus X",                "",                                  "@nexus_x",          #-- selected = 38
-	"NeXus Keys",                  "",                             "@nexus",            #-- selected = 39
-	"Line Keys",                  "",                              "@line",             #-- selected = 40
-	"Lopro",                  "",                                  "@lopro",            #-- selected = 41
-    "Playstation",                  "",                            "@playstation",      #-- selected = 42
-    "Xbox",                  "",                                   "@xbox",             #-- selected = 43
-	"Adventure Time",                  "",                         "@adventure_time",   #-- selected = 44
-	"Minecraft Diamond Set",                  "",                  "@minecraft_diamond",#-- selected = 45
-	"Minecraft Gold Set",                  "",                     "@minecraft_gold",   #-- selected = 46
-	"Minecraft Iron Set",                  "",                     "@minecraft_iron",   #-- selected = 47
-    "Minecraft Stone Set",                  "",                    "@minecraft_stone",  #-- selected = 48
-	"Minecraft Wood Set",                  " ",                    "@minecraft_wood",   #-- selected = 49
-	"X-Scope",                  "",                                "@xscope",           #-- selected = 50
-	"Braille",                  "",                                "@braille",          #-- selected = 51
-	"ZTE Grand",                  "",                              "@zte",              #-- selected = 52
-	"Facebook",                  "",                               "@facebook",         #-- selected = 53
-	"Xperia",                  "",                                 "@xperia",           #-- selected = 54
-	"HTC",                  "",                                    "@htc",              #-- selected = 55
-	"Motorola",                  "",                               "@motorola",         #-- selected = 56
-	"Samsung",                  "",                                "@samsung",          #-- selected = 57
-	"SimpleX",                  "",                                "@simplex",          #-- selected = 58
-    "KKF (KitKat Fixed)",                  "",                     "@kkf",              #-- selected = 59
-	"Minecraft Heads",                  "",                        "@minecraft_heads",  #-- selected = 60
-	"Android 'L'",                  "",                            "@android_l",        #-- selected = 61
-	"Project Hera",                  "",                           "@hera",             #-- selected = 62
-	"DKeyz",                  "",                                  "@dkeyz",            #-- selected = 63
-	"Blank",                  "",                                  "@blank"             #-- selected = 64
+	"Leave Current",                "",  "@",                   #-- selected = 1
+	"Revert Back To Stock",         "",  "@stock_keys",         #-- selected = 2
+	"3D Stock",                     "",  "@3d_stock",           #-- selected = 3
+	"Adventure Time",               "",  "@adventure_time",     #-- selected = 4
+	"Braille",                      "",  "@braille",            #-- selected = 5
+    "CCX",                          "",  "@ccx",                #-- selected = 6
+    "CCX Nexus",                    "",  "@ccx_nexus",          #-- selected = 7
+	"Circles Simplified",           "",  "@circles",            #-- selected = 8
+	"Circles Simplified Nexus",     "",  "@circles_nexus",      #-- selected = 9
+	"Circles Simplified v2",        "",  "@circles_2",          #-- selected = 10
+	"Circles Simplified v2 Nexus",  "",  "@circles_2_nexus",    #-- selected = 11
+	"Cyber",                        "",  "@cyber",              #-- selected = 12
+	"Cyber Holo Blue and Red",      "",  "@cyber_hbr",          #-- selected = 13
+	"Cyber Nexus",                  "",  "@cyber_nexus",        #-- selected = 14
+	"Cyber Nexus X",                "",  "@cyber_nexus_x",      #-- selected = 15
+	"Cyber Pro",                    "",  "@cyber_pro",          #-- selected = 16				
+	"Cyber Pro Nexus",              "",  "@cyber_pro_nexus",    #-- selected = 17
+	"DKeyz",                        "",  "@dkeyz",              #-- selected = 18
+    "Dots Simplified",              "",  "@dots",               #-- selected = 19
+	"Dots Simplified Nexus",        "",  "@dots_nexus",         #-- selected = 20
+	"Dual Arrow",                   "",  "@dual_arrow",         #-- selected = 21
+	"Dual Arrow Nexus",             "",  "@dual_arrow_nexus",   #-- selected = 22
+	"Exo-Circle",                   "",  "@exo_circle",         #-- selected = 23
+	"Exo-Circle Nexus",             "",  "@exo_circle_nexus",   #-- selected = 24
+	"Facebook",                     "",  "@facebook",           #-- selected = 25
+	"Hera",                         "",  "@hera",               #-- selected = 26
+	"Holo Framed Stock",            "",  "@holo_frame",         #-- selected = 27
+	"HTC",                          "",  "@htc",                #-- selected = 28
+	"Icon Keys",                    "",  "@icon_keys",          #-- selected = 29
+	"Icon Keys Holo Blue",          "",  "@icon_keys_holo",     #-- selected = 30
+    "KitKat",                       "",  "@kkf",                #-- selected = 31
+	"Line Keys",                    "",  "@line",               #-- selected = 32
+	"Lines Simplified",             "",  "@lines",              #-- selected = 33
+    "Lines Simplified Border",      "",  "@lines_border",       #-- selected = 34
+	"Lines Simplified Nexus",       "",  "@lines_nexus",        #-- selected = 35
+	"Lopro",                        "",  "@lopro",              #-- selected = 36
+	"Minecraft Diamond Set",        "",  "@minecraft_diamond",  #-- selected = 37
+	"Minecraft Gold Set",           "",  "@minecraft_gold",     #-- selected = 38
+	"Minecraft Heads",              "",  "@minecraft_heads",    #-- selected = 39
+	"Minecraft Iron Set",           "",  "@minecraft_iron",     #-- selected = 40
+    "Minecraft Stone Set",          "",  "@minecraft_stone",    #-- selected = 41
+	"Minecraft Wood Set",           "",  "@minecraft_wood",     #-- selected = 42
+	"Motorola",                     "",  "@motorola",           #-- selected = 43
+	"Nexus Keys",                   "",  "@nexus",              #-- selected = 44
+	"Nexus X",                      "",  "@nexus_x",            #-- selected = 45
+	"Nexus X White",                "",  "@nexus_x_white",      #-- selected = 46
+	"Pro-X",                        "",  "@pro_x",              #-- selected = 47
+	"Pro-X Nexus",                  "",  "@pro_x_nexus",        #-- selected = 48
+	"Pro-X Nexus Others White",     "",  "@pro_x_nexus_white",  #-- selected = 49
+	"Samsung",                      "",  "@samsung",            #-- selected = 50
+	"SimpleX",                      "",  "@simplex",            #-- selected = 51
+	"Squares Simplified",           "",  "@squares",            #-- selected = 52
+	"Squares Simplified Nexus",     "",  "@squares_nexus",      #-- selected = 53
+	"Tri Lock",                     "",  "@tri_lock",           #-- selected = 54
+	"Tri Lock Nexus",               "",  "@tri_lock_nexus",     #-- selected = 55
+    "Ultra Point",                  "",  "@ultra_point",        #-- selected = 56
+	"Ultra Point Nexus",            "",  "@ultra_point_nexus",  #-- selected = 57
+    "Xbox",                         "",  "@xbox",               #-- selected = 58
+	"Xperia",                       "",  "@xperia",             #-- selected = 59
+	"X-Scope",                      "",  "@xscope",             #-- selected = 60
+	"ZTE Grand",                    "",  "@zte",                #-- selected = 61
 );
 
 ##
@@ -242,64 +239,63 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 	
-	"Leave Current or From Previously Chosen Set",    "",          "@",                 #-- selected = 1
-	"Stock",                  "",                                  "@stock_keys",       #-- selected = 2
-	"3D Stock",                  "",                               "@3d_stock",         #-- selected = 3
-	"Holo Framed Stock",                "",                        "@holo_frame",       #-- selected = 4
-	"Cyber Pro",                "",                                "@cyber_pro",        #-- selected = 5				
-	"Cyber Pro Nexus",                "",                          "@cyber_pro_nexus",  #-- selected = 6
-	"Cyber",                "",                                    "@cyber",            #-- selected = 7
-	"Cyber Holo Blue and Red",                "",                  "@cyber_hbr",        #-- selected = 8
-	"Cyber Nexus",                "",                              "@cyber_nexus",      #-- selected = 9
-	"Cyber Nexus X",                "",                            "@cyber_nexus_x",    #-- selected = 10
-    "CCX",        "",                                              "@ccx",              #-- selected = 11
-    "CCX Nexus",        "",                                        "@ccx_nexus",        #-- selected = 12
-	"Exo-Circle",                  "",                             "@exo_circle",       #-- selected = 13
-	"Exo-Circle Nexus",                  "",                       "@exo_circle_nexus", #-- selected = 14
-	"Dual Arrow",                  "",                             "@dual_arrow",       #-- selected = 15
-	"Dual Arrow Nexus",                  "",                       "@dual_arrow_nexus", #-- selected = 16
-	"Circles Simplified",                  "",                     "@circles",          #-- selected = 17
-	"Circles Simplified Nexus",                  "",               "@circles_nexus",    #-- selected = 18
-	"Lines Simplified",                  "",                       "@lines",            #-- selected = 19			
-    "Dots Simplified",                  "",                        "@dots",             #-- selected = 20
-	"Dots Simplified Nexus",                  "",                  "@dots_nexus",       #-- selected = 21
-	"Squares Simplified",                "",                       "@squares",          #-- selected = 22
-	"Squares Simplified Nexus",                "",                 "@squares_nexus",    #-- selected = 23
-	"Tri Lock",                "",                                 "@tri_lock",         #-- selected = 24
-	"Tri Lock Nexus",                "",                           "@tri_lock_nexus",   #-- selected = 25
-    "Ultra Point",                  "",                            "@ultra_point",      #-- selected = 26
-	"Ultra Point Nexus",                  "",                      "@ultra_point_nexus",#-- selected = 27
-	"Pro-X",                  "",                                  "@pro_x",            #-- selected = 28
-	"Pro-X Nexus",                  "",                            "@pro_x_nexus",      #-- selected = 29
-	"Icon",                  "",                                   "@icon_keys",        #-- selected = 30
-	"Icon Holo Blue",                  "",                         "@icon_keys_holo",   #-- selected = 31
-	"Nexus X White",                "",                            "@nexus_x_white",    #-- selected = 32
-	"Nexus X",                "",                                  "@nexus_x",          #-- selected = 33
-	"NeXus",                  "",                                  "@nexus",            #-- selected = 34
-	"Line",                  "",                                   "@line",             #-- selected = 35
-	"Lopro",                  "",                                  "@lopro",            #-- selected = 36
-    "Playstation",                  "",                            "@playstation",      #-- selected = 37
-    "Xbox",                  "",                                   "@xbox",             #-- selected = 38
-	"Adventure Time",                  "",                         "@adventure_time",   #-- selected = 39
-	"Minecraft Diamond Set",                  "",                  "@minecraft_diamond",#-- selected = 40
-	"Minecraft Gold Set",                  "",                     "@minecraft_gold",   #-- selected = 41
-	"Minecraft Iron Set",                  "",                     "@minecraft_iron",   #-- selected = 42
-    "Minecraft Stone Set",                  "",                    "@minecraft_stone",  #-- selected = 43
-	"Minecraft Wood Set",                  " ",                    "@minecraft_wood",   #-- selected = 44
-	"X-Scope",                  "",                                "@xscope",           #-- selected = 45
-	"Braille",                  "",                                "@braille",          #-- selected = 46
-	"ZTE Grand",                  "",                              "@zte",              #-- selected = 47
-	"Android",                  "",                                "@android",          #-- selected = 48
-	"Android Head",                  "",                           "@android_head",     #-- selected = 49
-	"Batman",                  "",                                 "@batman",           #-- selected = 50
-	"Captain America",                  "",                        "@captainamerica",   #-- selected = 51
-	"Flash",                  "",                                  "@flash",            #-- selected = 52
-	"Green Lantern",                  "",                          "@greenlantern",     #-- selected = 53
-	"Iron Man Reactor",                  "",                       "@ironman",          #-- selected = 54
-	"Superman",                  "",                               "@superman",         #-- selected = 55
-	"SimpleX",                  "",                                "@simplex",          #-- selected = 56
-	"KKF (KitKat Fixed)",                  "",                                    "@kkf",              #-- selected = 57		
-	"Blank",                  "",                                  "@blank"             #-- selected = 58
+	"Leave Current",             "",  "@",                   #-- selected = 1
+	"Revert Back To Stock",      "",  "@stock_keys",         #-- selected = 2
+	"3D Stock",                  "",  "@3d_stock",           #-- selected = 3
+	"Adventure Time",            "",  "@adventure_time",     #-- selected = 4
+	"Android",                   "",  "@android",            #-- selected = 5
+	"Android Head",              "",  "@android_head",       #-- selected = 6
+	"Batman",                    "",  "@batman",             #-- selected = 7
+	"Braille",                   "",  "@braille",            #-- selected = 8
+	"Captain America",           "",  "@captainamerica",     #-- selected = 9
+    "CCX",                       "",  "@ccx",                #-- selected = 10
+    "CCX Nexus",                 "",  "@ccx_nexus",          #-- selected = 11
+	"Circles Simplified",        "",  "@circles",            #-- selected = 12
+	"Circles Simplified Nexus",  "",  "@circles_nexus",      #-- selected = 13
+	"Cyber",                     "",  "@cyber",              #-- selected = 14
+	"Cyber Blue and Red",        "",  "@cyber_hbr",          #-- selected = 15
+	"Cyber Nexus",               "",  "@cyber_nexus",        #-- selected = 16
+	"Cyber Nexus X",             "",  "@cyber_nexus_x",      #-- selected = 17
+	"Cyber Pro",                 "",  "@cyber_pro",          #-- selected = 18				
+	"Cyber Pro Nexus",           "",  "@cyber_pro_nexus",    #-- selected = 19
+    "Dots Simplified",           "",  "@dots",               #-- selected = 20
+	"Dots Simplified Nexus",     "",  "@dots_nexus",         #-- selected = 21
+	"Dual Arrow",                "",  "@dual_arrow",         #-- selected = 22
+	"Dual Arrow Nexus",          "",  "@dual_arrow_nexus",   #-- selected = 23
+	"Exo-Circle",                "",  "@exo_circle",         #-- selected = 24
+	"Exo-Circle Nexus",          "",  "@exo_circle_nexus",   #-- selected = 25
+	"Flash",                     "",  "@flash",              #-- selected = 26
+	"Green Lantern",             "",  "@greenlantern",       #-- selected = 27
+	"Holo Framed Stock",         "",  "@holo_frame",         #-- selected = 28
+	"Icon",                      "",  "@icon_keys",          #-- selected = 29
+	"Icon Holo Blue",            "",  "@icon_keys_holo",     #-- selected = 30
+	"Iron Man Reactor",          "",  "@ironman",            #-- selected = 31
+	"KitKat",                    "",  "@kkf",                #-- selected = 32		
+	"Line",                      "",  "@line",               #-- selected = 33
+	"Lines Simplified",          "",  "@lines",              #-- selected = 34			
+	"Lopro",                     "",  "@lopro",              #-- selected = 35
+	"Minecraft Diamond Set",     "",  "@minecraft_diamond",  #-- selected = 36
+	"Minecraft Gold Set",        "",  "@minecraft_gold",     #-- selected = 37
+	"Minecraft Iron Set",        "",  "@minecraft_iron",     #-- selected = 38
+    "Minecraft Stone Set",       "",  "@minecraft_stone",    #-- selected = 39
+	"Minecraft Wood Set",        "",  "@minecraft_wood",     #-- selected = 40
+	"NeXus",                     "",  "@nexus",              #-- selected = 41
+	"Nexus X",                   "",  "@nexus_x",            #-- selected = 42
+	"Nexus X White",             "",  "@nexus_x_white",      #-- selected = 43
+    "Playstation",               "",  "@playstation",        #-- selected = 44
+	"Pro-X",                     "",  "@pro_x",              #-- selected = 45
+	"Pro-X Nexus",               "",  "@pro_x_nexus",        #-- selected = 46
+	"SimpleX",                   "",  "@simplex",            #-- selected = 47
+	"Squares Simplified",        "",  "@squares",            #-- selected = 48
+	"Squares Simplified Nexus",  "",  "@squares_nexus",      #-- selected = 49
+	"Superman",                  "",  "@superman",           #-- selected = 50
+	"Tri Lock",                  "",  "@tri_lock",           #-- selected = 51
+	"Tri Lock Nexus",            "",  "@tri_lock_nexus",     #-- selected = 52
+    "Ultra Point",               "",  "@ultra_point",        #-- selected = 53
+	"Ultra Point Nexus",         "",  "@ultra_point_nexus",  #-- selected = 54
+    "Xbox",                      "",  "@xbox",               #-- selected = 55
+	"X-Scope",                   "",  "@xscope",             #-- selected = 56
+	"ZTE Grand",                 "",  "@zte",                #-- selected = 57
 );
 
 viewbox(
