@@ -82,7 +82,7 @@ menubox(
     "Please select from the Menu Below to Customize your Signal Icon",
   
   #-- Icon:
-    "@signal_home",
+    "@signal_stock",
     
   #-- Will be saved in /tmp/aroma/signal.prop
     "signal.prop",
@@ -91,8 +91,8 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 
-	"Leave Current",          "Select this If u do NOT want Custom Signal Icon Installed",   "@",                    #-- selected = 1
-    "Revert Back to Stock",   "",                                                            "@signal_home"          #-- selected = 2
+	"Leave Current",          "Leave Current Wifi Icons Installed",                          "@",                    #-- selected = 1
+    "Revert Back to Stock",   "",                                                            "@signal_stock"         #-- selected = 2
     "Dots",                   "Thanks to grisoxxl",                                          "@dots_signal",         #-- selected = 3
     "Lines",                  "Thanks to grisoxxl",                                          "@lines_signal",        #-- selected = 4
     "NXT",                    "",                                                            "@nxt_signal",          #-- selected = 5
@@ -114,7 +114,7 @@ menubox(
     "Please select from the Menu Below to Customize your WiFi Icon",
   
   #-- Icon:
-    "@wifi_home",
+    "@wifi_stock",
     
   #-- Will be saved in /tmp/aroma/wifi.prop
     "wifi.prop",
@@ -123,8 +123,8 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 
-	"Leave Current",         "Select this If u do NOT want Custom WiFi Icon Installed",  "@",               #-- selected = 1  
-    "Revert Back to Stock",  "",                                                         "@wifi_home"       #-- selected = 2
+	"Leave Current",         "Leave Current Signal Icons Installed",                     "@",               #-- selected = 1  
+    "Revert Back to Stock",  "",                                                         "@wifi_stock"      #-- selected = 2
     "Flame",                 "Thanks to grisoxxl",                                       "@flame_wifi",     #-- selected = 3
     "Lines",                 "Thanks to grisoxxl",                                       "@lines_wifi",     #-- selected = 4
     "Inverted",              "Inverted Signal/WiFi Icon",                                "@inverted_wifi",  #-- selected = 5
@@ -156,7 +156,7 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 	
-	"Leave Current",                "",  "@",                   #-- selected = 1
+	"Leave Current",                "Leave Current Softkeys Icons Installed",  "@",                   #-- selected = 1
 	"Revert Back To Stock",         "",  "@stock_keys",         #-- selected = 2
 	"3D Stock",                     "",  "@3d_stock",           #-- selected = 3
 	"Adventure Time",               "",  "@adventure_time",     #-- selected = 4
@@ -186,7 +186,7 @@ menubox(
 	"HTC",                          "",  "@htc",                #-- selected = 28
 	"Icon Keys",                    "",  "@icon_keys",          #-- selected = 29
 	"Icon Keys Holo Blue",          "",  "@icon_keys_holo",     #-- selected = 30
-	"KitKat",                       "",  "@kkf",                #-- selected = 31
+	"KitKat Filled",                "",  "@kkf",                #-- selected = 31
 	"Line Keys",                    "",  "@line",               #-- selected = 32
 	"Lines Simplified",             "",  "@lines",              #-- selected = 33
 	"Lines Simplified Border",      "",  "@lines_border",       #-- selected = 34
@@ -239,7 +239,7 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 	
-	"Leave Current",             "",  "@",                   #-- selected = 1
+	"Leave Current",             "Leave Current Home Icon Installed",  "@",                   #-- selected = 1
 	"Revert Back To Stock",      "",  "@stock_keys",         #-- selected = 2
 	"3D Stock",                  "",  "@3d_stock",           #-- selected = 3
 	"Adventure Time",            "",  "@adventure_time",     #-- selected = 4
@@ -270,7 +270,7 @@ menubox(
 	"Icon",                      "",  "@icon_keys",          #-- selected = 29
 	"Icon Holo Blue",            "",  "@icon_keys_holo",     #-- selected = 30
 	"Iron Man Reactor",          "",  "@ironman",            #-- selected = 31
-	"KitKat",                    "",  "@kkf",                #-- selected = 32		
+	"KitKat Filled",             "",  "@kkf",                #-- selected = 32		
 	"Line",                      "",  "@line",               #-- selected = 33
 	"Lines Simplified",          "",  "@lines",              #-- selected = 34			
 	"Lopro",                     "",  "@lopro",              #-- selected = 35
