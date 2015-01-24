@@ -92,15 +92,14 @@ menubox(
      #-------------------------+-----------------------------------------------------------+---------------#	
 
 	"Leave Current",          "Leave Current Wifi Icons Installed",                          "@",                    #-- selected = 1
-    "Revert Back to Stock",   "",                                                            "@signal_stock"         #-- selected = 2
+    "Revert Back to Stock",   "",                                                            "@signal_stock",        #-- selected = 2
     "Dots",                   "Thanks to grisoxxl",                                          "@dots_signal",         #-- selected = 3
     "Lines",                  "Thanks to grisoxxl",                                          "@lines_signal",        #-- selected = 4
     "NXT",                    "",                                                            "@nxt_signal",          #-- selected = 5
     "ResidentEvil",           "Thanks to grisoxxl",                                          "@re_signal",           #-- selected = 6
     "SimpleX",                "Recommend using SimpleX or Stock Signal",                     "@simplex_signal",      #-- selected = 7
     "StarWars",               "Thanks to deadpedal",                                         "@starwars_signal",     #-- selected = 8
-    "Wave",                   "Thanks to grisoxxl",                                          "@wave_signal",         #-- selected = 9
-  
+    "Wave",                   "Thanks to grisoxxl",                                          "@wave_signal"         #-- selected = 9
 );
 
 ##
@@ -124,7 +123,7 @@ menubox(
      #-------------------------+-----------------------------------------------------------+---------------#	
 
 	"Leave Current",         "Leave Current Signal Icons Installed",                     "@",               #-- selected = 1  
-    "Revert Back to Stock",  "",                                                         "@wifi_stock"      #-- selected = 2
+    "Revert Back to Stock",  "",                                                         "@wifi_stock",     #-- selected = 2
     "Flame",                 "Thanks to grisoxxl",                                       "@flame_wifi",     #-- selected = 3
     "Lines",                 "Thanks to grisoxxl",                                       "@lines_wifi",     #-- selected = 4
     "Inverted",              "Inverted Signal/WiFi Icon",                                "@inverted_wifi",  #-- selected = 5
@@ -132,8 +131,7 @@ menubox(
     "Sense",                 "",                                                         "@sense_wifi",     #-- selected = 7
     "SimpleX",               "Recommend using SimpleX or Stock Wifi",                    "@simplex_wifi",   #-- selected = 8
     "Shell",                 "Thanks to grisoxxl",                                       "@shell_wifi",     #-- selected = 9
-    "Starwars",              "Thanks to deadpedal",                                      "@starwars_wifi",  #-- selected = 10
-   
+    "Starwars",              "Thanks to deadpedal",                                      "@starwars_wifi"  #-- selected = 10
 );
 
 ##
@@ -216,7 +214,7 @@ menubox(
 	"Xbox",                         "",  "@xbox",               #-- selected = 58
 	"Xperia",                       "",  "@xperia",             #-- selected = 59
 	"X-Scope",                      "",  "@xscope",             #-- selected = 60
-	"ZTE Grand",                    "",  "@zte",                #-- selected = 61
+	"ZTE Grand",                    "",  "@zte"                #-- selected = 61
 );
 
 ##
@@ -295,7 +293,7 @@ menubox(
 	"Ultra Point Nexus",         "",  "@ultra_point_nexus",  #-- selected = 54
 	"Xbox",                      "",  "@xbox",               #-- selected = 55
 	"X-Scope",                   "",  "@xscope",             #-- selected = 56
-	"ZTE Grand",                 "",  "@zte",                #-- selected = 57
+	"ZTE Grand",                 "",  "@zte"                #-- selected = 57
 );
 
 viewbox(
