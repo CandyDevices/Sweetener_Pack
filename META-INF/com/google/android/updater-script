@@ -251,319 +251,326 @@ if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "16"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/cyber_pro_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/cyber_pro", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "17"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/dkeyz", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/cyber_pro_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "18"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/dots", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/dkeyz", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "19"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/dots_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/dots", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "20"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/dual_arrow", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/dots_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "21"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/dual_arrow_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/dual_arrow", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "22"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/exo_circle", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/dual_arrow_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "23"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/exo_circle_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/exo_circle", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "24"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/facebook", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/exo_circle_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "25"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/hera", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/facebook", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "26"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/holo_frame", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/hera", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "27"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/htc", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/holo_frame", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "28"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/icon_keys", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/htc", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "29"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/icon_keys_holo", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/icon_keys", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "30"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/kkf", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/icon_keys_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "31"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/line", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/kkf", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "32"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/lines", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/line", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "33"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/lines_border", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/lines", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "34"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/lines_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/lines_border", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "35"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/lopro", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/lines_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "36"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_diamond", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/lopro", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "37"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_gold", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_diamond", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "38"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_heads", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_gold", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "39"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_iron", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_heads", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "40"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_stone", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_iron", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "41"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/minecraft_wood", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_stone", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "42"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/motorola", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/minecraft_wood", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "43"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/motorola", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "44"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/nexus_x", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "45"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/nexus_x_white", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/nexus_x", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "46"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/playstation", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/nexus_x_white", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "47"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/pro_x", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/playstation", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "48"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/pro_x_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/pro_x", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "49"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/pro_x_nexus_white", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/pro_x_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "50"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/samsung", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/pro_x_nexus_white", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "51"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/simplex", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/samsung", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "52"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/squares", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/simplex", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "53"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/squares_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/squares", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "54"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/tri_lock", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/squares_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "55"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/tri_lock_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/tri_lock", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "56"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/ultra_point", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/tri_lock_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "57"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/ultra_point_nexus", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/ultra_point", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "58"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/xbox", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/ultra_point_nexus", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "59"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/xperia", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/xbox", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "60"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/xscope", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/xperia", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "61"
+		then
+    ui_print("-> Installing Custom Softkeys...");
+	 package_extract_dir("theme/softkeys/xscope", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/softkeys.prop","selected") == "62"
 		then
     ui_print("-> Installing Custom Softkeys...");
 	 package_extract_dir("theme/softkeys/zte", "/sdcard/vrtheme");
