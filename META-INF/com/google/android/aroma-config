@@ -16,11 +16,11 @@
 #
 
 
-ini_set("rom_name",             "Candy5 Sweetener Pack");
-ini_set("rom_version",          "V3");
-ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites | Rapier");
-ini_set("rom_device",           "Candy5 Devices");
-ini_set("rom_date",             "Jan.17, 2015");
+ini_set("rom_name",             "Candy Sweetener Pack");
+ini_set("rom_version",          "V3.1");
+ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites");
+ini_set("rom_device",           "XXHDPI Sense Devices");
+ini_set("rom_date",             "July.23, 2015");
 
 ini_set("force_colorspace","rgba");
 #ini_set("dp","5");
@@ -61,7 +61,7 @@ fontresload( "1", "ttf/Roboto-Regular.ttf", "16" );
 theme("lByCyberScopes");
 
 viewbox(
-  "CANDY Sweetner Main Menu",
+  "CANDY Sweetener Main Menu",
   "\n\n\n\n\n"+
   "You're about to flash:\n"+
   ini_get("rom_name") + " for " + ini_get("rom_device") +  "\n\n\n"+
@@ -72,11 +72,39 @@ viewbox(
 );
 
 ##
+# Battery Icon MENU
+#
+menubox(
+  #-- Title
+    "Battery Icon Menu",
+  
+  #-- Sub Title
+    "Please select from the Menu Below to Customize your Battery Icon",
+  
+  #-- Icon:
+    "@battery_stock",
+    
+  #-- Will be saved in /tmp/aroma/battery.prop
+    "battery.prop",
+    
+     #-------------------------+-----------------[ Menubox Items ]-------------------------+---------------#
+     # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
+     #-------------------------+-----------------------------------------------------------+---------------#	
+
+	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
+    "Revert Back to Stock",   "",                                "@battery_stock",    #-- selected = 2
+    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
+    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
+    "Stock red",              "",                                "@stock_red"         #-- selected = 6
+);
+
+##
 # Signal Icon MENU
 #
 menubox(
   #-- Title
-    "CandyKat Custom Signal Icon Menu",
+    "Signal Icon Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Signal Icon",
@@ -93,13 +121,10 @@ menubox(
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
     "Revert Back to Stock",   "",                                "@signal_stock",     #-- selected = 2
-    "Dots",                   "",                                "@dots_signal",      #-- selected = 3
-    "Lines",                  "",                                "@lines_signal",     #-- selected = 4
-    "NXT",                    "",                                "@nxt_signal",       #-- selected = 5
-    "ResidentEvil",           "",                                "@re_signal",        #-- selected = 6
-    "SimpleX",                "",                                "@simplex_signal",   #-- selected = 7
-    "StarWars",               "",                                "@starwars_signal",  #-- selected = 8
-    "Wave",                   "",                                "@wave_signal"       #-- selected = 9
+    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
+    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
+    "Stock red",              "",                                "@stock_red"         #-- selected = 6
 );
 
 ##
@@ -107,7 +132,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "CandyKat Custom WiFi Icon Menu",
+    "WiFi Icon Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your WiFi Icon",
@@ -122,16 +147,12 @@ menubox(
      # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
      #-------------------------+-----------------------------------------------------------+---------------#	
 
-	"Leave Current",         "Leave Current Icons Installed",   "@",               #-- selected = 1  
-    "Revert Back to Stock",  "",                                "@wifi_stock",     #-- selected = 2
-    "Flame",                 "",                                "@flame_wifi",     #-- selected = 3
-    "Lines",                 "",                                "@lines_wifi",     #-- selected = 4
-    "Inverted",              "",                                "@inverted_wifi",  #-- selected = 5
-    "NXT",                   "",                                "@nxt_wifi",       #-- selected = 6
-    "Sense",                 "",                                "@sense_wifi",     #-- selected = 7
-    "SimpleX",               "",                                "@simplex_wifi",   #-- selected = 8
-    "Shell",                 "",                                "@shell_wifi",     #-- selected = 9
-    "Starwars",              "",                                "@starwars_wifi"   #-- selected = 10
+	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1  
+    "Revert Back to Stock",   "",                                "@wifi_stock",       #-- selected = 2
+    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
+    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
+    "Stock red",              "",                                "@stock_red"         #-- selected = 6
 );
 
 ##
@@ -139,7 +160,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Custom Softkeys Menu",
+    "Softkeys Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Softkeys",
@@ -215,7 +236,11 @@ menubox(
 	"Xbox",                         "",                               "@xbox",               #-- selected = 59
 	"Xperia",                       "",                               "@xperia",             #-- selected = 60
 	"X-Scope",                      "",                               "@xscope",             #-- selected = 61
-	"ZTE Grand",                    "",                               "@zte"                 #-- selected = 62
+	"ZTE Grand",                    "",                               "@zte",                #-- selected = 62
+	"Stock Blue",                   "",                               "@stock_blue",         #-- selected = 63
+	"Stock Holo",                   "",                               "@stock_holo",         #-- selected = 64
+	"Stock Orange",                 "",                               "@stock_orange",       #-- selected = 65
+	"Stock Red",                    "",                               "@stock_red"           #-- selected = 66
 );
 
 ##
@@ -223,7 +248,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Custom Home Key Menu",
+    "Home Key Menu",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Home Key",
@@ -300,7 +325,7 @@ menubox(
 viewbox(
   "Ready To Install",
   "All the required info has been collected for installation.\n\n"+
-  "Tap Next to start CANDY Sweetner installation...",
+  "Tap Next to start CANDY Sweetener installation...",
   "icons/info"
 );
 

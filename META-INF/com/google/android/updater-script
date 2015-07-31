@@ -24,6 +24,43 @@ ui_print(" ");
 ui_print(" ");
 ui_print(" ");
 
+##############################BATTERY##############################
+
+if
+	file_getprop("/tmp/aroma/battery.prop","selected") == "2"
+		then
+    ui_print("-> Installing Stock...");
+	 package_extract_dir("theme/battery/stock", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/battery.prop","selected") == "3"
+		then
+    ui_print("-> Installing Stock Blue...");
+	 package_extract_dir("theme/battery/stock_blue", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/battery.prop","selected") == "4"
+		then
+    ui_print("-> Installing Stock Holo...");
+	 package_extract_dir("theme/battery/stock_holo", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/battery.prop","selected") == "5"
+		then
+    ui_print("-> Installing Stock Orange...");
+	 package_extract_dir("theme/battery/stock_orange", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/battery.prop","selected") == "6"
+		then
+    ui_print("-> Installing Stock Red...");
+	 package_extract_dir("theme/battery/stock_red", "/sdcard/vrtheme");
+endif;
+
 ##############################SIGNAL##############################
 
 if
@@ -36,50 +73,29 @@ endif;
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "3"
 		then
-    ui_print("-> Installing Dots Signal...");
-	 package_extract_dir("theme/signal/dots", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Blue...");
+	 package_extract_dir("theme/signal/stock_blue", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "4"
 		then
-    ui_print("-> Installing Lines Signal...");
-	 package_extract_dir("theme/signal/lines", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Holo...");
+	 package_extract_dir("theme/signal/stock_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "5"
 		then
-    ui_print("-> Installing NXT Signal...");
-	 package_extract_dir("theme/signal/nxt", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Orange...");
+	 package_extract_dir("theme/signal/stock_orange", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "6"
 		then
-    ui_print("-> Installing ResidentEvil Signal...");
-	 package_extract_dir("theme/signal/re", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/signal.prop","selected") == "7"
-		then
-    ui_print("-> Installing SimpleX Signal...");
-	 package_extract_dir("theme/signal/simplex", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/signal.prop","selected") == "8"
-		then
-    ui_print("-> Installing Starwars Signal...");
-	 package_extract_dir("theme/signal/starwars", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/signal.prop","selected") == "9"
-		then
-    ui_print("-> Installing Wave Signal...");
-	 package_extract_dir("theme/signal/wave", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Red...");
+	 package_extract_dir("theme/signal/stock_red", "/sdcard/vrtheme");
 endif;
 
 #############WIFI###########################
@@ -87,64 +103,36 @@ endif;
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "2"
 		then
-    ui_print("-> Installing Stock Signal...");
+    ui_print("-> Installing Stock Wifi...");
 	 package_extract_dir("theme/wifi/stock", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "3"
 		then
-    ui_print("-> Installing Flame WiFi...");
-	 package_extract_dir("theme/wifi/flame", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Blue...");
+	 package_extract_dir("theme/wifi/stock_blue", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "4"
 		then
-    ui_print("-> Installing Lines WiFi...");
-	 package_extract_dir("theme/wifi/lines", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Holo...");
+	 package_extract_dir("theme/wifi/stock_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "5"
 		then
-    ui_print("-> Installing Inverted WiFi...");
-	 package_extract_dir("theme/wifi/inverted", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Orange...");
+	 package_extract_dir("theme/wifi/stock_orange", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "6"
 		then
-    ui_print("-> Installing NXT WiFi...");
-	 package_extract_dir("theme/wifi/nxt", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/wifi.prop","selected") == "7"
-		then
-    ui_print("-> Installing Sense WiFi...");
-	 package_extract_dir("theme/wifi/sense", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/wifi.prop","selected") == "8"
-		then
-    ui_print("-> Installing SimpleX WiFi...");
-	 package_extract_dir("theme/wifi/simplex", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/wifi.prop","selected") == "9"
-		then
-    ui_print("-> Installing Shell WiFi...");
-	 package_extract_dir("theme/wifi/shell", "/sdcard/vrtheme");
-endif;
-
-if
-	file_getprop("/tmp/aroma/wifi.prop","selected") == "10"
-		then
-    ui_print("-> Installing StarWars WiFi...");
-	 package_extract_dir("theme/wifi/starwars", "/sdcard/vrtheme");
+    ui_print("-> Installing Stock Red...");
+	 package_extract_dir("theme/wifi/stock_red", "/sdcard/vrtheme");
 endif;
 
 ##############SOFTKEYS##############################
@@ -153,7 +141,7 @@ if
 	file_getprop("/tmp/aroma/softkeys.prop","selected") == "2"
 		then
     ui_print("-> Installing Custom Softkeys...");
-	 package_extract_dir("theme/softkeys/stock_keys", "/sdcard/vrtheme");
+	 package_extract_dir("theme/softkeys/stock", "/sdcard/vrtheme");
 endif;	
 	
 if
@@ -575,6 +563,34 @@ if
     ui_print("-> Installing Custom Softkeys...");
 	 package_extract_dir("theme/softkeys/zte", "/sdcard/vrtheme");
 endif;
+	
+if
+	file_getprop("/tmp/aroma/softkeys.prop","selected") == "63"
+		then
+    ui_print("-> Installing Custom Softkeys...");
+	 package_extract_dir("theme/softkeys/stock_blue", "/sdcard/vrtheme");
+endif;	
+	
+if
+	file_getprop("/tmp/aroma/softkeys.prop","selected") == "64"
+		then
+    ui_print("-> Installing Custom Softkeys...");
+	 package_extract_dir("theme/softkeys/stock_holo", "/sdcard/vrtheme");
+endif;	
+	
+if
+	file_getprop("/tmp/aroma/softkeys.prop","selected") == "65"
+		then
+    ui_print("-> Installing Custom Softkeys...");
+	 package_extract_dir("theme/softkeys/stock_orange", "/sdcard/vrtheme");
+endif;	
+	
+if
+	file_getprop("/tmp/aroma/softkeys.prop","selected") == "66"
+		then
+    ui_print("-> Installing Custom Softkeys...");
+	 package_extract_dir("theme/softkeys/stock_red", "/sdcard/vrtheme");
+endif;	
 
 ############################HOME KEY##############################
 
@@ -1001,7 +1017,6 @@ set_progress(0.9);
 unmount("/data");
 unmount("/system");
 set_progress(1.0);
-ui_print("--Please wait while your device is being Candy Painted");
 ui_print("--Installation Complete!");
 ui_print("--");
 ui_print("--");
