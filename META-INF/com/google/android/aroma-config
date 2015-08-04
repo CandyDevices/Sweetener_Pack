@@ -20,7 +20,7 @@ ini_set("rom_name",             "Candy Sweetener Pack");
 ini_set("rom_version",          "V3.1");
 ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites");
 ini_set("rom_device",           "XXHDPI Sense Devices");
-ini_set("rom_date",             "July.23, 2015");
+ini_set("rom_date",             "04.08.2015");
 
 ini_set("force_colorspace","rgba");
 #ini_set("dp","5");
@@ -93,10 +93,12 @@ menubox(
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
     "Revert Back to Stock",   "",                                "@battery_stock",    #-- selected = 2
-    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
-    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
-    "Stock red",              "",                                "@stock_red"         #-- selected = 6
+    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
+    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -121,10 +123,12 @@ menubox(
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
     "Revert Back to Stock",   "",                                "@signal_stock",     #-- selected = 2
-    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
-    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
-    "Stock red",              "",                                "@stock_red"         #-- selected = 6
+    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
+    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -149,10 +153,12 @@ menubox(
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1  
     "Revert Back to Stock",   "",                                "@wifi_stock",       #-- selected = 2
-    "Stock blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 4
-    "Stock orange",           "",                                "@stock_orange",     #-- selected = 5
-    "Stock red",              "",                                "@stock_red"         #-- selected = 6
+    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
+    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -229,18 +235,20 @@ menubox(
 	"SimpleX",                      "",                               "@simplex",            #-- selected = 52
 	"Squares Simplified",           "",                               "@squares",            #-- selected = 53
 	"Squares Simplified Nexus",     "",                               "@squares_nexus",      #-- selected = 54
-	"Tri Lock",                     "",                               "@tri_lock",           #-- selected = 55
-	"Tri Lock Nexus",               "",                               "@tri_lock_nexus",     #-- selected = 56
-	"Ultra Point",                  "",                               "@ultra_point",        #-- selected = 57
-	"Ultra Point Nexus",            "",                               "@ultra_point_nexus",  #-- selected = 58
-	"Xbox",                         "",                               "@xbox",               #-- selected = 59
-	"Xperia",                       "",                               "@xperia",             #-- selected = 60
-	"X-Scope",                      "",                               "@xscope",             #-- selected = 61
-	"ZTE Grand",                    "",                               "@zte",                #-- selected = 62
-	"Stock Blue",                   "",                               "@stock_blue",         #-- selected = 63
-	"Stock Holo",                   "",                               "@stock_holo",         #-- selected = 64
-	"Stock Orange",                 "",                               "@stock_orange",       #-- selected = 65
-	"Stock Red",                    "",                               "@stock_red"           #-- selected = 66
+    "Stock Blue",                   "",                               "@stock_blue",         #-- selected = 55
+    "Stock Gold",                   "",                               "@stock_gold",         #-- selected = 56
+    "Stock Holo",                   "",                               "@stock_holo",         #-- selected = 57
+    "Stock Orange",                 "",                               "@stock_orange",       #-- selected = 58
+    "Stock Red",                    "",                               "@stock_red",          #-- selected = 59
+    "Stock Silver",                 "",                               "@stock_silver",       #-- selected = 60
+	"Tri Lock",                     "",                               "@tri_lock",           #-- selected = 61
+	"Tri Lock Nexus",               "",                               "@tri_lock_nexus",     #-- selected = 62
+	"Ultra Point",                  "",                               "@ultra_point",        #-- selected = 63
+	"Ultra Point Nexus",            "",                               "@ultra_point_nexus",  #-- selected = 64
+	"Xbox",                         "",                               "@xbox",               #-- selected = 65
+	"Xperia",                       "",                               "@xperia",             #-- selected = 66
+	"X-Scope",                      "",                               "@xscope",             #-- selected = 67
+	"ZTE Grand",                    "",                               "@zte"                 #-- selected = 68
 );
 
 ##
