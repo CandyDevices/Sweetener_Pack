@@ -29,49 +29,49 @@ ui_print(" ");
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "2"
 		then
-    ui_print("-> Installing Stock...");
+    ui_print("-> Installing Stock Battery...");
 	 package_extract_dir("theme/battery/stock", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "3"
 		then
-    ui_print("-> Installing Stock Blue...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_blue", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "4"
 		then
-    ui_print("-> Installing Stock Gold...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_gold", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "5"
 		then
-    ui_print("-> Installing Stock Holo...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "6"
 		then
-    ui_print("-> Installing Stock Orange...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_orange", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "7"
 		then
-    ui_print("-> Installing Stock Red...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_red", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/battery.prop","selected") == "8"
 		then
-    ui_print("-> Installing Stock Silver...");
+    ui_print("-> Installing Custom Battery...");
 	 package_extract_dir("theme/battery/stock_silver", "/sdcard/vrtheme");
 endif;
 
@@ -87,42 +87,42 @@ endif;
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "3"
 		then
-    ui_print("-> Installing Stock Blue...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_blue", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "4"
 		then
-    ui_print("-> Installing Stock Gold...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_gold", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "5"
 		then
-    ui_print("-> Installing Stock Holo...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "6"
 		then
-    ui_print("-> Installing Stock Orange...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_orange", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "7"
 		then
-    ui_print("-> Installing Stock Red...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_red", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/signal.prop","selected") == "8"
 		then
-    ui_print("-> Installing Stock Silver...");
+    ui_print("-> Installing Custom Signal...");
 	 package_extract_dir("theme/signal/stock_silver", "/sdcard/vrtheme");
 endif;
 
@@ -138,42 +138,42 @@ endif;
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "3"
 		then
-    ui_print("-> Installing Stock Blue...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_blue", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "4"
 		then
-    ui_print("-> Installing Stock Gold...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_gold", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "5"
 		then
-    ui_print("-> Installing Stock Holo...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_holo", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "6"
 		then
-    ui_print("-> Installing Stock Orange...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_orange", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "7"
 		then
-    ui_print("-> Installing Stock Red...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_red", "/sdcard/vrtheme");
 endif;
 
 if
 	file_getprop("/tmp/aroma/wifi.prop","selected") == "8"
 		then
-    ui_print("-> Installing Stock Silver...");
+    ui_print("-> Installing Custom Wifi...");
 	 package_extract_dir("theme/wifi/stock_silver", "/sdcard/vrtheme");
 endif;
 
@@ -1040,6 +1040,13 @@ if
 		then
     ui_print("-> Installing Custom Home Key...");
 	 package_extract_dir("theme/home/zte", "/sdcard/vrtheme");
+endif;
+
+if
+	file_getprop("/tmp/aroma/homekey.prop","selected") == "58"
+		then
+    ui_print("-> Installing Custom Home Key...");
+	 package_extract_dir("theme/home/candy", "/sdcard/vrtheme");
 endif;
 
 ########################## Theme Installation###################

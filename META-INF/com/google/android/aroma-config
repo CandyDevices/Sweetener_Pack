@@ -20,7 +20,7 @@ ini_set("rom_name",             "Candy Sweetener Pack");
 ini_set("rom_version",          "V3.1");
 ini_set("rom_author",           "matthew0776 | CyberScopes | Darknites");
 ini_set("rom_device",           "XXHDPI Sense Devices");
-ini_set("rom_date",             "04.08.2015");
+ini_set("rom_date",             "08.08.2015");
 
 ini_set("force_colorspace","rgba");
 #ini_set("dp","5");
@@ -76,7 +76,7 @@ viewbox(
 #
 menubox(
   #-- Title
-    "Battery Icon Menu",
+    "Battery",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Battery Icon",
@@ -92,13 +92,13 @@ menubox(
      #-------------------------+-----------------------------------------------------------+---------------#	
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
-    "Revert Back to Stock",   "",                                "@battery_stock",    #-- selected = 2
-    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
-    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
-    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
-    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
+	"Revert Back to Stock",   "",                                "@battery_stock",    #-- selected = 2
+	"Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+	"Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+	"Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+	"Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+	"Stock Red",              "",                                "@stock_red",        #-- selected = 7
+	"Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -106,7 +106,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Signal Icon Menu",
+    "Signal",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Signal Icon",
@@ -122,13 +122,13 @@ menubox(
      #-------------------------+-----------------------------------------------------------+---------------#	
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1
-    "Revert Back to Stock",   "",                                "@signal_stock",     #-- selected = 2
-    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
-    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
-    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
-    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
+	"Revert Back to Stock",   "",                                "@signal_stock",     #-- selected = 2
+	"Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+	"Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+	"Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+	"Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+	"Stock Red",              "",                                "@stock_red",        #-- selected = 7
+	"Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -136,7 +136,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "WiFi Icon Menu",
+    "WiFi",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your WiFi Icon",
@@ -152,13 +152,13 @@ menubox(
      #-------------------------+-----------------------------------------------------------+---------------#	
 
 	"Leave Current",          "Leave Current Icons Installed",   "@",                 #-- selected = 1  
-    "Revert Back to Stock",   "",                                "@wifi_stock",       #-- selected = 2
-    "Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
-    "Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
-    "Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
-    "Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
-    "Stock Red",              "",                                "@stock_red",        #-- selected = 7
-    "Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
+	"Revert Back to Stock",   "",                                "@wifi_stock",       #-- selected = 2
+	"Stock Blue",             "",                                "@stock_blue",       #-- selected = 3
+	"Stock Gold",             "",                                "@stock_gold",       #-- selected = 4
+	"Stock Holo",             "",                                "@stock_holo",       #-- selected = 5
+	"Stock Orange",           "",                                "@stock_orange",     #-- selected = 6
+	"Stock Red",              "",                                "@stock_red",        #-- selected = 7
+	"Stock Silver",           "",                                "@stock_silver"      #-- selected = 8
 );
 
 ##
@@ -166,7 +166,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Softkeys Menu",
+    "Softkeys",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Softkeys",
@@ -235,12 +235,12 @@ menubox(
 	"SimpleX",                      "",                               "@simplex",            #-- selected = 52
 	"Squares Simplified",           "",                               "@squares",            #-- selected = 53
 	"Squares Simplified Nexus",     "",                               "@squares_nexus",      #-- selected = 54
-    "Stock Blue",                   "",                               "@stock_blue",         #-- selected = 55
-    "Stock Gold",                   "",                               "@stock_gold",         #-- selected = 56
-    "Stock Holo",                   "",                               "@stock_holo",         #-- selected = 57
-    "Stock Orange",                 "",                               "@stock_orange",       #-- selected = 58
-    "Stock Red",                    "",                               "@stock_red",          #-- selected = 59
-    "Stock Silver",                 "",                               "@stock_silver",       #-- selected = 60
+	"Stock Blue",                   "",                               "@stock_blue",         #-- selected = 55
+	"Stock Gold",                   "",                               "@stock_gold",         #-- selected = 56
+	"Stock Holo",                   "",                               "@stock_holo",         #-- selected = 57
+	"Stock Orange",                 "",                               "@stock_orange",       #-- selected = 58
+	"Stock Red",                    "",                               "@stock_red",          #-- selected = 59
+	"Stock Silver",                 "",                               "@stock_silver",       #-- selected = 60
 	"Tri Lock",                     "",                               "@tri_lock",           #-- selected = 61
 	"Tri Lock Nexus",               "",                               "@tri_lock_nexus",     #-- selected = 62
 	"Ultra Point",                  "",                               "@ultra_point",        #-- selected = 63
@@ -256,7 +256,7 @@ menubox(
 #
 menubox(
   #-- Title
-    "Home Key Menu",
+    "HomeKey",
   
   #-- Sub Title
     "Please select from the Menu Below to Customize your Home Key",
@@ -327,7 +327,8 @@ menubox(
 	"Ultra Point Nexus",         "",                               "@ultra_point_nexus",  #-- selected = 54
 	"Xbox",                      "",                               "@xbox",               #-- selected = 55
 	"X-Scope",                   "",                               "@xscope",             #-- selected = 56
-	"ZTE Grand",                 "",                               "@zte"                 #-- selected = 57
+	"ZTE Grand",                 "",                               "@zte",                #-- selected = 57
+	"Candy",                     "",                               "@candy"               #-- selected = 58
 );
 
 viewbox(
