@@ -34,12 +34,12 @@ anisplash(
     3,
   
   #-- Frame  [ Image, duration in millisecond ]
-    "anim/a1", 40,
-    "anim/a2", 40,
-    "anim/a3", 40,
-    "anim/a4", 40,
-    "anim/a5", 40,
-    "anim/a6", 40,
+	"anim/a1", 40,
+	"anim/a2", 40,
+	"anim/a3", 40,
+	"anim/a4", 40,
+	"anim/a5", 40,
+	"anim/a6", 40,
 	"anim/a7", 40,
 	"anim/a8", 40,
 	"anim/a9", 40,
